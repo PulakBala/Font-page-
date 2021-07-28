@@ -1,0 +1,99 @@
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    width: 100%;
+    
+}
+ul, li, a {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+
+}
+ul a{
+    margin: 20px;
+    text-decoration: none;
+}
+.B{
+    margin-left: 410px;
+    float:right;
+}
+ul,li,a:hover{
+    color: #e0d8c873;
+}
+.A{
+    background:rgb(46, 46, 51);
+    box-shadow:0 6px 8px 0 cyan;
+    display: none;
+    position: absolute;
+    width: 100px;
+    
+}
+.post:hover .A{
+    display: block;
+}
+.A a{
+    display: block;
+}
+.dashboard h2{
+    display: inline-block;
+    margin: 20px;
+    padding-left: 20px;
+}
+.main ul li {
+    display: block;
+
+}
+.side {
+    background:rgb(46, 46, 51);
+    margin-left: 40px;
+    position: absolute;
+    width: 180px;
+    height: 470px;
+    border-radius: 10px;
+
+}
+.side a{
+    margin: 28px;
+    display: block;
+}
+
+.pairs{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.font{
+    width: 700px;
+    border: 1px solid grey;
+    margin-left: 350px;
+    padding: 10px;
+    margin-top: 45px;
+}
+.font h1 {
+    font-size: 30px;
+}
+.font p{
+    font-size: 24px;
+}
+.text{
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    background-color: grey;
+    border-radius: 5px;
+
+}
+.sans {
+    margin-right: 400px;
+}
+.selected button{
+    background: rgb(179, 163, 163);
+    padding: 5px 10px;
+    margin-top: 8px;
+    border-radius: 7px;
+}
+
